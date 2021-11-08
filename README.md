@@ -29,17 +29,17 @@ Lista produktów i kategorii domyśłnie posortowana po nazwie ASC. Możliwe sor
 
 #### Kategoria
 
-- nazwa
-- kategoria nadrzędna
-- data aktualizacji
+- nazwa (100 znaków)
+- kategoria nadrzędna (relacja do Kategoria)
+- data aktualizacji (data i godzina)
 
 #### Produkt
 
-- nazwa 
-- opis
-- zdjęcie
-- data aktualizacji
-- cena
+- nazwa (50 znaków)
+- opis (255 znaków)
+- zdjęcie (plik jpg)
+- data aktualizacji (data i godzina)
+- cena (liczba)
 
 ## Stack
 
