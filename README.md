@@ -4,7 +4,7 @@ Prosty katalog produktów z podziałem na kategroie i podkategorie.
 ## Opis
 
 Przygotować prosty katalog produktów z podziałem na kategorie i podkategorie. 
-Produkty zawierające jedno zdjęie i opis powinny mieć możliwość umieszczania ich w różnych kategoriach i podkategoriach.
+Produkty zawierające jedno zdjęie i opis powinny mieć możliwość umieszczania w różnych kategoriach i podkategoriach.
 
 Projekt powinien składać się z dwóch części: **frontend** i **backend**.
 Katalog powinien być responsywny zbudowany na wybranym frameworku UI.
