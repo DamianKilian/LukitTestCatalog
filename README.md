@@ -15,12 +15,14 @@ Na froncie widoczna jest lista kategorii głównych z możliwością rozwinięci
 Podgląd wybranej kategorii zawęża listę produktów do tych dostępnych w aktualnie wybranej.
 Domyślnie na stronie głównej wyświetlać karty wszystkich produktów. 
 Każda karta produktu powinna wyświetlać nazwę, zdjęcie, krótki opis oraz cenę.
+Lista produktów i kategorii posortowana po nazwie ASC.
 
 ### Backend
 
 W backendzie dwie sekcje - kategorie i produkty gdzie jest możliwść listowania, dodawania, edycji i kasowania danych.
 Edycja produktu i kategorii powinna aktualizować datę aktualizacji, która jest widoczona na liście.
 Przypisywanie produktu do kategorii może odbywać się na stronie edycji produktu lub w dodatkowej akcji.
+Lista produktów i kategorii domyśłnie posortowana po nazwie ASC. Możliwe sortowania po nazwie i dacie aktualizacji.
 
 ### Encje
 
