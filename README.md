@@ -40,13 +40,14 @@ Przypisywanie produktu do kategorii może odbywać się na stronie edycji produk
 
 ## Stack
 
-- Symfony 5
-- Mysql/MariaDb
-- Frontend - użyć wybrany Responsive Framework np: Bootstrap lub Semantic UI
+- Symfony 5 + Twig
+- Mysql/MariaDb + Doctrine
+- Frontend - wybrany Responsive Framework np: Bootstrap lub Semantic UI
 - Backend - również responsywny, można posiłkować się dostępnymi w Symfony generatorami CRUD
 - W kodzie nazwy metod, encji, dokumentacja, komentarze po angielsku
-- Przyogotwać zestaw danych startowych
-- Proste testy funkcjonalne
-- Instrukcja/opis instalacji - dodatkowy plik readme
-- Github - można wrzucić całość lub częściowe PRy do tego repozytorium - commity tak jak komentarze najlepiej po angielsku
-- Pytania i inne kwestie - w Issues, możemy też tam wrzucać prośby o poprawki lub objaśnienia itp...
+- Przyogotwać zestaw danych startowych - fixtures
+- Proste testy funkcjonalne i unity w miarę potrzeby
+- Załączyć instrukcja/opis instalacji - osobny plik readme
+- Github - prywatny fork i Pull Requesty ze zmianami
+- Commity tak jak komentarze najlepiej po angielsku
+- Pytania i inne kwestie - w Issues, możemy też tam wrzucać prośby o poprawki lub objaśnienia, dyskusje itp...
