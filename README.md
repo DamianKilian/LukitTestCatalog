@@ -35,7 +35,7 @@ Lista produktów i kategorii domyśłnie posortowana po nazwie ASC. Możliwe sor
 
 #### Produkt
 
-- nazwa (50 znaków)
+- nazwa (100 znaków)
 - opis (255 znaków)
 - zdjęcie (plik jpg)
 - data aktualizacji (data i godzina)
