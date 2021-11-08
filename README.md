@@ -22,7 +22,8 @@ Lista produktów i kategorii posortowana po nazwie ASC.
 W backendzie dwie sekcje - kategorie i produkty gdzie jest możliwść listowania, dodawania, edycji i kasowania danych.
 Edycja produktu i kategorii powinna aktualizować datę aktualizacji, która jest widoczona na liście.
 Przypisywanie produktu do kategorii może odbywać się na stronie edycji produktu lub w dodatkowej akcji.
-Lista produktów i kategorii domyśłnie posortowana po nazwie ASC. Możliwe sortowania po nazwie i dacie aktualizacji.
+
+Lista produktów i kategorii domyśłnie posortowana po nazwie ASC. Możliwe sortowania list po nazwie i dacie aktualizacji.
 
 ### Encje
 
