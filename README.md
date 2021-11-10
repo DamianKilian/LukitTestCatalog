@@ -51,9 +51,9 @@ Lista produktów i kategorii domyśłnie posortowana po nazwie ASC. Możliwe sor
 ## Założenia
 
 - W kodzie nazwy metod, encji, dokumentacja, komentarze po angielsku
-- Przyogotwać zestaw danych startowych - fixtures
+- Przygotwać zestaw danych startowych - fixtures
 - Proste testy funkcjonalne i unity w miarę potrzeby
-- Załączyć instrukcja/opis instalacji i odpalenia projektu - osobny plik readme
+- Załączyć instrukcję/opis instalacji i odpalenia projektu - osobny plik readme
 - Github - działamy na prywatnych forkach tego repozytorium i wszelkie zmiany wrzucamy jako Pull Requesty
 - Treść commitów tak jak komentarze piszemy po angielsku
 - Pytania i inne kwestie - w sekcji Issues tego repozytorium, możemy też tam wrzucać prośby o poprawki lub objaśnienia, dyskusje itp...
