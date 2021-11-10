@@ -47,10 +47,13 @@ Lista produktów i kategorii domyśłnie posortowana po nazwie ASC. Możliwe sor
 - Mysql/MariaDb + Doctrine
 - Frontend - wybrany Responsive Framework np: Bootstrap lub Semantic UI
 - Backend - również responsywny, można posiłkować się dostępnymi w Symfony generatorami CRUD
+
+## Założenia
+
 - W kodzie nazwy metod, encji, dokumentacja, komentarze po angielsku
 - Przyogotwać zestaw danych startowych - fixtures
 - Proste testy funkcjonalne i unity w miarę potrzeby
-- Załączyć instrukcja/opis instalacji - osobny plik readme
-- Github - prywatny fork i Pull Requesty ze zmianami
-- Commity tak jak komentarze najlepiej po angielsku
-- Pytania i inne kwestie - w Issues, możemy też tam wrzucać prośby o poprawki lub objaśnienia, dyskusje itp...
+- Załączyć instrukcja/opis instalacji i odpalenia projektu - osobny plik readme
+- Github - działamy na prywatnych forkach tego repozytorium i wszelkie zmiany wrzucamy jako Pull Requesty
+- Treść commitów tak jak komentarze piszemy po angielsku
+- Pytania i inne kwestie - w sekcji Issues tego repozytorium, możemy też tam wrzucać prośby o poprawki lub objaśnienia, dyskusje itp...
