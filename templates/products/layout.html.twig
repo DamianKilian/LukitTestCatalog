@@ -1,0 +1,36 @@
+{% extends 'base.html.twig' %}
+
+{% block stylesheets %}
+    {{ parent() }}
+    <link rel="stylesheet" href="/css/app.css">
+{% endblock %}
+
+
+{% block body %}
+
+    <ul class="main-navigation">
+        {% for cat in mainCategories %}
+            <li>
+                <a href="/{{cat.slug}}">{{cat.title}}</a>
+                {% if cat.children %}
+                <ul>
+                    {% for ch in cat.children %}
+                    <li>
+                        <a href="/{{ch.slug}}">{{ch.title}}</a>
+                        {% if ch.children %}
+                        <ul>
+                            {% for ch2 in ch.children %}
+                            <li><a href="/{{ch2.slug}}">{{ch2.title}}</a></li>
+                            {% endfor %}
+                        </ul>
+                        {% endif %}
+                    </li>
+                    {% endfor %}
+                </ul>
+                {% endif %}
+            </li>
+        {% endfor %}
+    </ul>
+
+    {% block page_contents %}{% endblock %}
+{% endblock %}
