@@ -14,16 +14,16 @@
     <ul class="main-navigation">
         {% for cat in mainCategories %}
             <li>
-                <a href="/{{cat.slug}}">{{cat.title}}</a>
+                <a href="{{ path('category_products', {slug: cat.slug}) }}">{{cat.title}}</a>
                 {% if cat.children %}
                 <ul>
                     {% for ch in cat.children %}
                     <li>
-                        <a href="/{{ch.slug}}">{{ch.title}}</a>
+                        <a href="{{ path('category_products', {slug: ch.slug}) }}">{{ch.title}}</a>
                         {% if ch.children %}
                         <ul>
                             {% for ch2 in ch.children %}
-                            <li><a href="/{{ch2.slug}}">{{ch2.title}}</a></li>
+                            <li><a href="{{ path('category_products', {slug: ch2.slug}) }}">{{ch2.title}}</a></li>
                             {% endfor %}
                         </ul>
                         {% endif %}
