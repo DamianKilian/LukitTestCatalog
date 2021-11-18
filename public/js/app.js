@@ -1,0 +1,1 @@
+"use strict";window.lukittest={init:function(){lukittest.sortProductsBy()},sortProductsBy:function(){var t=$("#sortProductsBy"),n=$("#products");t.length&&t.on("change",(function(){var t=$(this);$.ajax({method:"post",url:window.location.pathname+"/"+t.val()}).done((function(t){n.html(t)}))}))}},$(document).ready((function(){lukittest.init()}));
