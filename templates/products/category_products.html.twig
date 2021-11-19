@@ -1,7 +1,6 @@
 
 {% extends 'products/layout.html.twig' %}
 {% block page_contents %}
-    <h1> category_products.html</h1>
     <select name="sortProductsBy" id="sortProductsBy">
         <option value="nameAsc">Name asc</option>
         <option {% if 'nameDesc' == sortProductsBy %}selected="selected"{% endif %} value="nameDesc">Name dasc</option>

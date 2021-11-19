@@ -3,6 +3,7 @@
 window.lukittest = {
     init: function () {
         lukittest.sortProductsBy();
+        lukittest.menu();
     },
     sortProductsBy: function () {
         var sortProductsBy = $('#sortProductsBy');
@@ -20,7 +21,15 @@ window.lukittest = {
             });
         }
     },
-
+    menu: function () {
+        $('#main-nav').hcOffcanvasNav({
+            disableAt: 1024,
+            customToggle: $('#toggleMenu'),
+            navTitle: 'All Categories',
+            levelTitles: true,
+            levelTitleAsBack: true
+          });
+    },
 };
 
 
